@@ -2,7 +2,7 @@
 
 /**
  * check_cycle - checks if list is a loop, ie, if it has a tail node
- * 		that does not point to the head node
+ * 		that points to the head node
  * @list: list to be analyzed
  * Return: 1 if loop, 0 if not loop
  */
