@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-last = int(repr(number)[-1])
 string = ""
+
+if number >= 0:
+    last = int(repr(number)[-1])
+else:
+    last = int(repr(number)[-1]) * (-1)
 
 if last > 5:
     string = "and is greater than 5"
