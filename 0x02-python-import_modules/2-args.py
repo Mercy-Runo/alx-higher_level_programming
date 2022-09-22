@@ -13,6 +13,5 @@ if __name__ == "__main__":
     if count == 0:
         sys.exit()
     else:
-        for word in sys.argv:
-            print("{}: {}".format(count, word))
-        str(word) += 1
+        for i in range(count):
+            print("{}: {}".format(i + 1, sys.argv[i + 1]))
