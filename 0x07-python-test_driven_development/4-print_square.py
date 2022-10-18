@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-    This module contains print_square function which prints a square with character #
+    This module contains print_square function which
+    prints a square with character #
 """
+
 
 def print_square(size):
     """
