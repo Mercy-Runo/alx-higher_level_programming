@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
-    This module contains say_my_name function which outputs a formatted string with th eusers    name
+    This module contains say_my_name function which outputs a
+    formatted string with the user's name
 """
+
+
 def say_my_name(first_name, last_name=""):
     """
     This function returns a formatted string with the user's name

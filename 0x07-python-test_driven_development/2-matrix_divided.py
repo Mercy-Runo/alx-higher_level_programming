@@ -3,11 +3,13 @@
    This module contains matrix_divided, which divides all elements of a matrix
 
 """
+
+
 def matrix_divided(matrix, div):
     """
     This function divides the elements of the input matrix
     All elements must be rounded off to 2 decimal places
-    A new matrix must be returned    
+    A new matrix must be returned
 
     Arguments:
       matrix: input matrix
