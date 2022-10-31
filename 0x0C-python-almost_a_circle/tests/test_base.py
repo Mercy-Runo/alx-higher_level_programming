@@ -502,7 +502,7 @@
 #         self.assertEqual(str(r1), str(list_rectangles_output[0]))
 
 #     def test_load_from_file_csv_second_rectangle(self):
-OBOBOB#         r1 = Rectangle(10, 7, 2, 8, 1)
+#         r1 = Rectangle(10, 7, 2, 8, 1)
 #         r2 = Rectangle(2, 4, 5, 6, 2)
 #         Rectangle.save_to_file_csv([r1, r2])
 #         list_rectangles_output = Rectangle.load_from_file_csv()
@@ -514,7 +514,6 @@
 #         Rectangle.save_to_file_csv([r1, r2])
 #         output = Rectangle.load_from_file_csv()
 #         self.assertTrue(all(type(obj) == Rectangle for obj in output))
-OBOBOB
 #     def test_load_from_file_csv_first_square(self):
 #         s1 = Square(5, 1, 3, 3)
 #         s2 = Square(9, 5, 2, 3)
